@@ -1,0 +1,557 @@
+/* Default Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img {
+    max-width: 80%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.inlinle_block{
+    display: inline-block;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(35, 126, 126);
+    color: #ffffff;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.fixed-width {
+
+    width: 1270px;
+    margin: auto;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*  Header CSS  */
+.fixed-with {
+
+    width: 1270px;
+    margin: auto;
+
+}
+
+.header{
+    background-color: #3498db;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    width: 210px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 74px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+
+/*  Banner  */
+.banner{
+    background: url(img/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.banner a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(35, 126, 126);
+    color: white;
+
+}
+form.table {
+    text-align: center;
+    display: inline-block;
+    margin-top: 44px;
+    font-size: 30px;
+    color: red;
+}
+.banner-caption{}
+.banner-caption h1 {
+    background: rgba(52, 152, 219,.6);
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+        margin-top: auto;
+    font-size: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.banner-caption h2 {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 5px;
+}
+.banner-caption table {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 5px;
+}
+select,input {
+    padding: 10px 20px;
+}
+
+/*  About  */
+.about {
+    /* margin-top: 60px; */
+    background: #ecf0f1;
+    padding: 60px 0;
+}
+.about h2 {
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+.about {
+    margin-top: 0px;
+
+}
+
+/* Service Section */
+.service {
+    background-color: #f9f9f9;
+    padding: 80px;
+}
+.service-item {
+	width: 31.3%;
+	float: left;
+	border: 1px solid #ddd;
+	padding: 25px 10px;
+	box-sizing: border-box;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.service-item span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service-item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.service-item p{}
+
+
+/*  Blog Section  */
+.blog-container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-left-notificaiton{
+    float: right;
+    width: 25%;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Blog Notification */
+.blog-left-notificaiton{}
+.blog-left-notificaiton h2 {
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.blog-left-notificaiton ul{
+    list-style: none;
+}
+.blog-left-notificaiton ul li {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer{
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.social-menu li a:hover{}
+
+
+/*php project start*/
+
+
+/*php header.php start*/
+a.navbar-brand {
+    font-size: 56px;
+    font-family: cursive;
+   
+}
+
+
+/* login.php */
+
+.register{
+    padding: 10px;
+    background-color: aqua;
+    display: inline-block;
+}
+.login{
+    padding: 10px 20px;
+    background-color: aqua;
+    display: inline-block;
+}
+.home{
+    padding: 10px;
+    background-color: aqua;
+    display: inline-block;
+}
+h2{
+    margin-bottom: 30px;
+}
+.bodycolor{
+    background: url(img/banner.jpg) no-repeat center center;
+	background-size: cover;
+	
+	color: #fff;
+	position: relative;
+    z-index: 9;
+    padding: 50px 0 0 0;
+	
+    
+
+}
+.bodycolor::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+
+
+/* register.php */
+footer {
+    background-color: #20201e;
+    color: white;
+    padding: 50px 20px;
+    
+    
+}
+
+input[type="file"] {
+    margin-left: 55px;
+}
+label {
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+
+
+/* showinfo.php */
+
+
+.refresh {
+    padding: 10px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.div1 {
+    margin-left: 570px;
+   
+}
+th {
+    width: 150px;
+    margin: 12px 0px;
+    display: inline-block;
+}
+
+
+/* header.php */
+
+.about{
+    margin-top: 120px;
+    background-color: rgb(39, 245, 245);
+    padding: 20px 50px;
+}
+
+a.list-group-item {
+    display: block;
+    padding: 10px 20px;
+}
+
+.left.alluser {
+    margin-right: 220px;
+}
+.link a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* admin index.php */
+.numberofstudentandusers.clearfix {
+    /* display: flex; */
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+
+/* admin addstudent.php */
+.addstudent{
+    display: grid;
+    place-items: center;
+}
+
+/* admin allstudent.php */
+.allstudent{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    
+}
+/* admin allstudent.php */
+
+.allstudent .table{
+    
+    border-collapse: collapse;
+
+}
+.allstudent .table td,.table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+.allstudent .table th{
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+
+ .table  tr:nth-child(1){
+    background-color: darkgreen;
+    color: white;
+}
+
+
+
+
+li {
+    list-style: none;
+}
+.allstudentheader{
+
+     display: grid;
+    place-items: center;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+
+/* admin allusers.php */
+td {
+    width: 50px;
+}
+
+.allusers .table{
+    
+    border-collapse: collapse;
+
+}
+.allusers .table td,.table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+.allusers .table th{
+    background-color: darkblue;
+    color: #ffffff;
+}
+ .table tbody tr:nth-child(even){
+    background: rgba(72, 134, 228, 0.6);
+     color: rgb(6, 235, 204);
+    
+}
+ .table tbody tr:nth-child(odd){
+    background: rgba(52, 152, 219,.6);
+     color: rgb(6, 235, 204);
+
+    
+}
+
+ .table  tr:nth-child(1){
+    background-color: darkgreen; !important
+    color: white;
+}
+
+
+.allusers{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    
+}
+.alllusersheader{
+    display: grid;
+    place-items: center;
+}
+
+
+/* admin userprofile.php */
+
+.userprofile{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    
+}
+
+
+/* admin footer.php */
+
+body{
+    min-height: 100vh;
+}
+
+.stycky_footer{
+    position: sticky;
+    top: 100%;
+}
+
+/* admin allusers.php */
+.about {
+    margin-top: 0px;
+    /* background-color: rgb(184, 223, 121); */
+    /* padding: 20px 50px; */
+}
+
+
+/* admin .php */
+
+a{
+    color: rgb(6, 235, 204);
+}
+
+.index a {
+    color:red;
+}
+.link a{
+    color:rgb(240, 30, 30);
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(35, 126, 126);
+    color: #ffffff;
+}
+
+.addstudent .success{
+    background-color: turquoise;
+}
+.addstudent .fail{
+    background-color: red;
+}
